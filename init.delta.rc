@@ -152,7 +152,7 @@ service hostapd /system/bin/hostap /data/misc/wifi/hostapd.conf
     disabled
     oneshot
 
-service dhcpcd_tiwlan0 /system/bin/dhcpcd -ABKL
+service dhcpcd_tiwlan0 /system/bin/dhcpcd -ABDKL
     class main
     disabled
     oneshot
